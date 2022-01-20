@@ -1,0 +1,25 @@
+{
+  "name": "QA-capstone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miketolcer/QA-capstone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miketolcer/QA-capstone/issues"
+  },
+  "homepage": "https://github.com/miketolcer/QA-capstone#readme",
+  "dependencies": {
+    "chromedriver": "^97.0.0",
+    "jest": "^27.4.7",
+    "selenium-webdriver": "^4.1.1"
+  }
+}
