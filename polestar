@@ -1,0 +1,83 @@
+Exported postman polestar file
+
+{
+	"info": {
+		"_postman_id": "001fa9bb-2401-4293-9d96-7aa940e5f5cb",
+		"name": "myServer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
+ https://polestarcrm.secure.force.com/uswebchat/embeddedService/sidebarApp.app?aura.format=JSON&aura.formatAdapter=LIGHTNING_OUT&guestUserLang=en-US&eswConfigDeveloperName=US_Web_Chat_Group
+ https://polestarcrm.secure.force.com/uswebchat/aura?r=0&aura.Style.applyTokens=1
+ https://polestarcrm.secure.force.com/uswebchat/aura?r=5&ui-instrumentation-components-beacon.InstrumentationBeacon.sendData=1
+ https://www.google-analytics.com/j/collect?v=1&_v=j96&aip=1&a=2014722240&t=event&ni=0&_s=1&dl=https://www.polestar.com/us/&dr=https://search.yahoo.com/&ul=en-us&de=UTF-8&dt=Polestar – Electric cars | Polestar US&sd=24-bit&sr=1280x720&vp=496x601&je=0&ec=menu&ea=menu_click&el=menu_open&_u=SCCAAEADQAAAAC~&jid=1128558214&gjid=104872116&cid=2074271365.1642606368&tid=UA-10271378-12&_gid=1635026969.1642606368&_r=1&gtm=2wg1c0T6SM3VW&cd2=us&cd3=web&cd13=public&cd20=2022-01-20T15:53:08.841-05:00&cd22=10&cd17=2074271365.1642606368&cd19=event&z=1030450192
+ https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-10271378-12&cid=2074271365.1642606368&jid=1128558214&gjid=104872116&_gid=1635026969.1642606368&_u=SCCAAEADQAAAAC~&z=1239488281
+ https://www.polestar.com/web3-static/page-data/app-data.json
+ https://www.polestar.com/web3-static/page-data/us/polestar-1/page-data.json
+ https://www.polestar.com/web3-static/page-data/app-data.json

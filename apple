@@ -1,0 +1,65 @@
+Exported apple polestar file
+
+{
+	"info": {
+		"_postman_id": "0b979489-0818-4417-a356-e51fedb1e861",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
+https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=ba6790e9e2e540d1904aa972ebc0c910&version=2.3.2
+https://www.apple.com/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4
+https://www.apple.com/shop/favoritesx/fetch
+https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=en_US
+https://xp.apple.com/report/2/xp_aos_clientperf
+https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=ba6790e9e2e540d1904aa972ebc0c910&version=2.3.2
