@@ -32,7 +32,5 @@ test("j", async () => {
 
     await driver.findElement(By.css('button[id="ac-gn-searchform-submit"]')).click()
 
-
-
 })
 
