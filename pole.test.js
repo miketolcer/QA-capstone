@@ -48,3 +48,9 @@ beforeAll(async ()  => {
     await driver.get('https://www.polestar.com/us/preowned-cars/search-result/polestar-2/')
   
 })
+//  test("t", async () => {
+//      await driver.get('https://www.polestar.com/us/get-to-know-the-polestar-2/charging/')
+    
+//      await driver.get(By.css('button[class="css-13fzwpx"]')).click()
+
+// })
