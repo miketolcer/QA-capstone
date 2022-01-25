@@ -42,4 +42,14 @@ test("Apple store location", async () => {
 })
 test("H", async () => {
     await driver.get('https://www.apple.com/shop/product/MV7N2AM/A/airpods-with-charging-case')
+
+    let price = driver.findElement(By.xpath('//span[text()="$129.00"]'))
+
+    // await driver.findElement(By.xpath('//span[text()="Personalize them for free"]')).click()
+
+    
+
+
+
 })
+
