@@ -10,7 +10,8 @@
     <img alt="License: ISC" src="https://img.shields.io/github/license/miketolcer/QA-capstone" />
   </a>
 </p>
-  In this capstone I practiced manual and automation testing using Trello, Selenium IDE and Jest. I tested these two websites https://www.apple.com/ https://www.polestar.com/us/ 
+  In this capstone I practiced manual and automation testing using Trello, Selenium IDE and Jest. I tested these two websites https://www.apple.com/ https://www.polestar.com/us/
+My Trello boards.
 https://trello.com/b/yBuIsgI4/apple
 https://trello.com/b/pj63PpWk/polestar
 
