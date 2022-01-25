@@ -57,9 +57,9 @@ Exported apple polestar file
 		}
 	]
 }
-https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=ba6790e9e2e540d1904aa972ebc0c910&version=2.3.2
-https://www.apple.com/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4
-https://www.apple.com/shop/favoritesx/fetch
-https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=en_US
-https://xp.apple.com/report/2/xp_aos_clientperf
-https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=ba6790e9e2e540d1904aa972ebc0c910&version=2.3.2
+POST https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=ba6790e9e2e540d1904aa972ebc0c910&version=2.3.2
+GET https://www.apple.com/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4
+GET https://www.apple.com/shop/favoritesx/fetch
+GET https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=en_US
+POST https://xp.apple.com/report/2/xp_aos_clientperf
+POST https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=ba6790e9e2e540d1904aa972ebc0c910&version=2.3.2

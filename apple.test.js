@@ -4,7 +4,11 @@ const chromedriver = require('chromedriver')
 
 const driver = new Builder().withCapabilities(Capabilities.chrome()).build()
 
+//To maximize the browser size of the test
+driver.manage().window().maximize()
+
 jest.setTimeout(30000)
+
 //Test
 // test("jest getting started", () => {
 //     console.log("hello everyone")
@@ -64,4 +68,16 @@ test("Air Pod Buying Options", async () => {
     await driver.get('https://www.apple.com/airpods/')
 
     await driver.findElement(By.css('a[aria-label="Buy AirPods Max."]')).click()
+    await driver.sleep(1000)
 })
+test("Air Pod Price Assertion", async () => {
+    await driver.get('https://www.apple.com/shop/product/MME73AM/A/airpods-3rd-generation')
+    
+    //Assertion on the price
+    let check = await driver.findElement(By.css('span[class="rc-prices-fullprice"]')).getText()
+
+    expect(check).toContain("$179.00")
+    
+})
+
+    
