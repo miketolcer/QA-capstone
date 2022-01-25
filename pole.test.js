@@ -5,7 +5,7 @@ const chromedriver = require('chromedriver')
 const driver = new Builder().withCapabilities(Capabilities.chrome()).build()
 
 jest.setTimeout(30000)
-
+//Test
 // test("jest getting started", () => {
 //     console.log("hello everyone")
 // })
@@ -48,9 +48,3 @@ beforeAll(async ()  => {
     await driver.get('https://www.polestar.com/us/preowned-cars/search-result/polestar-2/')
   
 })
-//  test("t", async () => {
-//      await driver.get('https://www.polestar.com/us/get-to-know-the-polestar-2/charging/')
-    
-//      await driver.get(By.css('button[class="css-13fzwpx"]')).click()
-
-// })
