@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to QA-capstone 👋</h1>
+<h1 align="center">Welcome To My Bright Paths Foundations QA Specialization Capstone Project 👋</h1>
 <p>
   <a href="https://github.com/miketolcer/QA-capstone#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
@@ -10,9 +10,9 @@
     <img alt="License: ISC" src="https://img.shields.io/github/license/miketolcer/QA-capstone" />
   </a>
 </p>
-
-> https://trello.com/b/yBuIsgI4/apple
-
+  In this capstone I practiced manual and automation testing using Trello, Selenium IDE and Jest. I tested these two websites https://www.apple.com/ https://www.polestar.com/us/ 
+https://trello.com/b/yBuIsgI4/apple
+https://trello.com/b/pj63PpWk/polestar
 
 ## Author
 
