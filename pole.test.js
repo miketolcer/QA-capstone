@@ -14,6 +14,7 @@ jest.setTimeout(30000)
 
 beforeAll(async ()  => {
     await driver.get('https://www.polestar.com/us/')
+    await driver.sleep(2000)
  
     await driver.findElement(By.css('button[id="onetrust-accept-btn-handler"]')).click()
 })
@@ -47,14 +48,16 @@ beforeAll(async ()  => {
  //Code directs user to pre owned polestar 2 vechiles page with 48082 location already saved
  test("poles star preowned", async () => {
     await driver.get('https://www.polestar.com/us/preowned-cars/search-result/polestar-2/')
-    await driver.sleep(3000)
+    await driver.sleep(5000)
 })
 //Navigate to pole star 1 page and make an assertion on the price 
 test("pole star 1 price assertion", async () => {
     await driver.get('https://www.polestar.com/us/polestar-1/')
-    
+    await driver.sleep(5000)
 
     let check = await driver.findElement(By.css('p[class="css-157ggcv"]')).getText()
 
     expect(check).toContain("$155,000")
+    
+    driver.quit()
 })

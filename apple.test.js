@@ -17,10 +17,10 @@ jest.setTimeout(30000)
 //Pull up airpods and add them to bag
 test("add air pods to cart", async () => {
     await driver.get('https://www.apple.com/shop/product/MME73AM/A/airpods-3rd-generation')
-    await driver.sleep(1000)
+    await driver.sleep(2000)
 
     await driver.findElement(By.css('button[id="add-to-cart"]')).click()
-    await driver.sleep(1000)
+    await driver.sleep(3000)
 })
 
 //Navigate to support search bar and input "forgot apple id" and "broke my screen" and click icon to search.
@@ -54,13 +54,15 @@ test("support search bar", async () => {
 //Navigate to Apple retail search bar and input "warren, MI" to test this location
 test("Apple store location", async () => {
     await driver.get('https://www.apple.com/retail/')
+    await driver.sleep(2000)
 
     await driver.findElement(By.css('input[aria-label="Find a store"]')).sendKeys("warren ,MI")
-    await driver.sleep(2000)
+    await driver.sleep(4000)
 })
 //Click on each buy button for the section and navigate back to previous page.
 test("Air Pod Buying Options", async () => {
     await driver.get('https://www.apple.com/airpods/')
+    await driver.sleep(1000)
 
     await driver.findElement(By.css('a[aria-label="Buy AirPods (2nd generation)."]')).click()
     await driver.sleep(1000)
@@ -89,4 +91,3 @@ test("Air Pod Price Assertion", async () => {
 
     expect(check).toContain("$179.00")
 })
- 
